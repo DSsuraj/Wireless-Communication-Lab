@@ -1,0 +1,10 @@
+E_b=1:0.1:10;
+d=2*E_b;
+N=1;
+U=0;
+y=d/sqrt(N/2);
+P_e=qfunc(y);
+plot(E_b,P_e);
+xlabel("Amplitude");
+ylabel("Probability");
+title("BER of PAM");
